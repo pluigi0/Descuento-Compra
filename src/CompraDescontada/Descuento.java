@@ -14,13 +14,13 @@ public class Descuento {
         
         if (compra > 260){
             
-            JOptionPane.showMessageDialog(null, "La compra es mayor a 300");
+            JOptionPane.showMessageDialog(null, "La compra es mayor a $260");
             resultado = desc*compra;
             compra = compra-resultado;
             JOptionPane.showMessageDialog(null, "El descuento aplicado es: "+resultado+ "\nLa compra final es: "+compra);
         }
         else {
-            JOptionPane.showMessageDialog(null, "Compra menor a 300");
+            JOptionPane.showMessageDialog(null, "Compra menor a $260");
             JOptionPane.showMessageDialog(null, "No se aplica descuento del 14%. \nEl monto de la compra se mantiene igual: "+compra);
         }
         
